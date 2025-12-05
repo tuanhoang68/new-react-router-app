@@ -2,7 +2,7 @@
 
 client_id = "d0f667e553dde820186d7bbe08b6124b"
 name = "newReactRouterApp"
-application_url = "https://your-backend-domain.com"   # BE
+application_url = "https://be-1234abcd.ngrok-free.app"   # BE
 embedded = true
 type = "custom"
 
@@ -26,5 +26,5 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://your-backend-domain.com/auth/callback"
+  "https://be-1234abcd.ngrok-free.app/auth/callback"
 ]
