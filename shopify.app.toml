@@ -2,8 +2,9 @@
 
 client_id = "d0f667e553dde820186d7bbe08b6124b"
 name = "newReactRouterApp"
-application_url = "https://example.com"
+application_url = "https://your-backend-domain.com"   # BE
 embedded = true
+type = "custom"
 
 [build]
 automatically_update_urls_on_dev = true
@@ -24,4 +25,6 @@ api_version = "2026-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://your-backend-domain.com/auth/callback"
+]
